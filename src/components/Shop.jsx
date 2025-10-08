@@ -1,9 +1,8 @@
 import { useContext } from 'react';
-
 import CartContext from '../contexts/CartContext.jsx';
+import Product from './Product.jsx';
 
 import { DUMMY_PRODUCTS } from '../dummy-products.js';
-import Product from './Product.jsx';
 
 export default function Shop() {
   const { addItemToCart } = useContext(CartContext);
