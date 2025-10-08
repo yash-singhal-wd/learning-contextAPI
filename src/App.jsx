@@ -76,7 +76,7 @@ function App() {
     <>
       <CartContext.Provider value={cartCtx}>
         <Header/>
-        <Shop onAddItemToCart={handleAddItemToCart} />
+        <Shop/>
       </CartContext.Provider>
     </>
   );
