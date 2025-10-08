@@ -14,7 +14,7 @@ export default function Shop() {
       <ul id="products">
         {DUMMY_PRODUCTS.map((product) => (
           <li key={product.id}>
-            <Product {...product} onAddToCart={addItemToCart} />
+            <Product {...product}/>
           </li>
         ))}
       </ul>
