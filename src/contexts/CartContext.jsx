@@ -5,6 +5,7 @@ import { DUMMY_PRODUCTS } from "../dummy-products";
 const initialState = {
     items: []
 }
+
 const CartContext = createContext({
     items: [],
     addItemToCart: () => {},
